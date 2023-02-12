@@ -100,6 +100,9 @@ class Ui_MainWindow(object):
         self.oauth_config_btn = QPushButton(self.centralwidget)
         self.oauth_config_btn.setObjectName(u"oauth_config_btn")
         self.oauth_config_btn.setGeometry(QRect(650, 30, 75, 24))
+        self.label_3 = QLabel(self.centralwidget)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(630, 540, 181, 16))
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
@@ -146,5 +149,6 @@ class Ui_MainWindow(object):
         self.btn_save_as_osz.setText(QCoreApplication.translate("MainWindow", u"\u9009\u62e9", None))
         self.btn_save_to_osu.setText(QCoreApplication.translate("MainWindow", u"\u9009\u62e9", None))
         self.oauth_config_btn.setText(QCoreApplication.translate("MainWindow", u"\u914d\u7f6eOAuth", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"by \u5343\u91cc\u626f\u6de1 2023.2 v0.0.1", None))
     # retranslateUi
 
