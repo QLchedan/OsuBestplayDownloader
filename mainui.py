@@ -78,7 +78,7 @@ class Ui_MainWindow(object):
         self.label_2.setGeometry(QRect(320, 30, 53, 16))
         self.down_status_label = QLabel(self.centralwidget)
         self.down_status_label.setObjectName(u"down_status_label")
-        self.down_status_label.setGeometry(QRect(360, 370, 53, 16))
+        self.down_status_label.setGeometry(QRect(300, 370, 200, 20))
         self.save_as_osz_checkbox = QCheckBox(self.centralwidget)
         self.save_as_osz_checkbox.setObjectName(u"save_as_osz_checkbox")
         self.save_as_osz_checkbox.setGeometry(QRect(40, 490, 101, 20))
@@ -149,6 +149,6 @@ class Ui_MainWindow(object):
         self.btn_save_as_osz.setText(QCoreApplication.translate("MainWindow", u"\u9009\u62e9", None))
         self.btn_save_to_osu.setText(QCoreApplication.translate("MainWindow", u"\u9009\u62e9", None))
         self.oauth_config_btn.setText(QCoreApplication.translate("MainWindow", u"\u914d\u7f6eOAuth", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"by \u5343\u91cc\u626f\u6de1 2023.2 v0.0.1", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"by \u5343\u91cc\u626f\u6de1 2023.3 v0.0.2", None))
     # retranslateUi
 
